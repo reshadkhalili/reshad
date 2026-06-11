@@ -16,3 +16,4 @@ build/v2_*
 build/crowd_side*
 build/bed_test.wav
 build/*.png
+build/voices/
