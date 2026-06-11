@@ -17,3 +17,11 @@ build/crowd_side*
 build/bed_test.wav
 build/*.png
 build/voices/
+input3.mp4
+build/clips3/
+build/txt3/
+build/list3.txt
+build/vo3/
+build/voices/
+build/interp50.mp4
+build/v3_*
