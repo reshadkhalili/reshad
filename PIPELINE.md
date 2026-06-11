@@ -42,9 +42,10 @@ strip, not screen-filling boxes.
 1. Original broadcast audio: never used raw. Crowd bed = source audio
    lowpass 380Hz (kills voice intelligibility, keeps roar dynamics) + pink-noise
    stadium ambience layer.
-2. VO: Piper (voice per user selection), per-line `length_scale`
-   0.88–0.95 (faster = more excited), script written with contractions and
-   short exclamatory clauses.
+2. VO: Piper `en-us-libritts-high`, **speaker 66** (locked channel voice,
+   male/American). Delivery per line: `length_scale` 0.85 + `noise_scale` 0.55
+   for goal/eruption lines, 0.93/0.667 for buildup and analysis lines. Script
+   written with contractions and short exclamatory clauses.
 3. Broadcast-mic chain on VO: atempo 1.05 → highpass 90 → presence EQ +4dB@3.5k
    → +2dB@140 → compressor 3:1 → soft clip → over the ducked bed.
 4. Optional music mode: ONLY claim-safe tracks supplied by user (YouTube Audio
