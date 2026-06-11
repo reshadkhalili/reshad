@@ -6,3 +6,13 @@ build/comps/
 build/qa/
 build/list.txt
 build/chk_*.png
+input2.mp4
+build/clips2/
+build/txt2/
+build/list2.txt
+build/vo/
+build/ball_logo.png
+build/v2_*
+build/crowd_side*
+build/bed_test.wav
+build/*.png
